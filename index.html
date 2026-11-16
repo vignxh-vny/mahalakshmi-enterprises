@@ -642,9 +642,9 @@
       const location = document.getElementById('siteLocation').value.trim();
       const area = document.getElementById('areaSize').value.trim();
 
-      // Trigger n8n webhook in background (sends automated WhatsApp confirmation)
+      // Trigger live cloud webhook in background
       try {
-        fetch('http://localhost:5678/webhook-test/mahalakshmi-lead', {
+        fetch('https://mahalakshmi-bot.onrender.com/webhook', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
