@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahalakshmi Enterprises | Shuttering Work & Civil Construction Bengaluru</title>
+  <meta name="description" content="Mahalakshmi Enterprises - Trusted Shuttering Work, Civil Construction, and Material Rental (Props, Spans, Steel Plates) with skilled labour in Bengaluru.">
+  
+  <!-- Google Fonts: Inter & Noto Sans Kannada -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Kannada:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#0E3A7D',      /* Banner primary navy blue */
+              darkBlue: '#0A2552',
+              lightBlue: '#1D4ED8',
+              orange: '#E05322',    /* Banner services orange */
+              orangeHover: '#C84417',
+              slate: '#1E293B',
+              bgLight: '#F8FAFC',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            kannada: ['"Noto Sans Kannada"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Custom subtle styling */
+    .kannada-text {
+      font-family: 'Noto Sans Kannada', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-brand-bgLight text-slate-800 font-sans antialiased selection:bg-brand-orange selection:text-white">
+
+  <!-- TOP BAR: Trust & Contact -->
+  <header class="bg-brand-darkBlue text-white text-xs sm:text-sm py-2 px-4 border-b border-blue-900/50">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-4 flex-wrap">
+        <span class="inline-flex items-center gap-1.5 font-medium text-slate-300">
+          <svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          GSTIN: <strong class="text-white tracking-wider">29AFVPV5496D1ZF</strong>
+        </span>
+        <span class="hidden md:inline-block text-slate-500">•</span>
+        <span class="hidden md:inline-flex items-center gap-1.5 text-slate-300">
+          <svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          Magadi Road, Bengaluru - 560091
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-xs">
+        <a href="tel:9845295628" class="hover:text-brand-orange transition flex items-center gap-1 font-semibold text-white">
+          <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+          +91 98452 95628
+        </a>
+        <span class="text-slate-500">|</span>
+        <a href="tel:9071696924" class="hover:text-brand-orange transition font-semibold text-slate-300">
+          90716 96924
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between">
+      
+      <!-- Brand Logo / Title -->
+      <a href="#" class="flex flex-col">
+        <span class="kannada-text text-brand-blue font-bold text-lg sm:text-xl tracking-tight leading-none">
+          ಮಹಾಲಕ್ಷ್ಮಿ ಎಂಟರ್ಪ್ರೈಸಸ್
+        </span>
+        <span class="text-brand-blue font-black tracking-wider text-base sm:text-lg uppercase leading-tight">
+          MAHALAKSHMI ENTERPRISES
+        </span>
+        <span class="text-[10px] text-slate-500 font-medium tracking-wide uppercase">
+          Shuttering & Civil Construction Works • Bengaluru
+        </span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+        <a href="#services" class="hover:text-brand-blue transition">Services</a>
+        <a href="#materials" class="hover:text-brand-blue transition">Materials On Hire</a>
+        <a href="#projects" class="hover:text-brand-blue transition">Work Scope</a>
+        <a href="#about" class="hover:text-brand-blue transition">About Us</a>
+        <a href="#contact" class="hover:text-brand-blue transition">Location</a>
+      </div>
+
+      <!-- Action Button -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20am%20looking%20for%20Shuttering%20/%20Construction%20services.%20Please%20share%20details." 
+           target="_blank"
+           class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-sm hover:shadow transition">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.12-.524-1.821-.745-2.986-2.607-3.076-2.727-.09-.12-1.02-1.357-1.02-2.587 0-1.23.64-1.838.868-2.088.196-.215.426-.269.569-.269.143 0 .287.002.412.008.134.006.312-.051.488.371.18.432.614 1.498.668 1.606.054.108.09.234.018.378-.072.144-.108.234-.216.36-.108.126-.228.281-.326.377-.108.108-.22.226-.095.441.125.216.557.919 1.196 1.489.824.734 1.519.96 1.735 1.068.216.108.342.09.468-.054.126-.144.54-.63.684-.846.144-.216.288-.18.486-.108.198.072 1.26.594 1.476.702.216.108.36.162.414.252.054.09.054.522-.09 1.224zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.176L2 22l4.978-1.399C8.423 21.496 10.154 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+          <span>WhatsApp Inquiry</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="relative bg-gradient-to-b from-slate-900 via-brand-darkBlue to-brand-blue text-white py-16 sm:py-24 px-4 sm:px-6 overflow-hidden">
+    <!-- Subtle Grid Background -->
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: Value Proposition -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <div class="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 text-brand-orange text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full">
+            <span class="w-2 h-2 rounded-full bg-brand-orange animate-pulse"></span>
+            Direct Contractor • Own Materials & Labour
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-5xl font-extrabold tracking-tight leading-tight">
+            Shuttering Work & Civil Construction Across <span class="text-orange-400">Bengaluru</span>
+          </h1>
+
+          <p class="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
+            Specialized in commercial buildings, industrial sheds, apartments, and high-rises. Fully equipped with our own heavy-duty <strong>adjustable props, girder spans, steel shuttering plates</strong>, and experienced site labour gangs.
+          </p>
+
+          <!-- Core Value Badges -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10">
+              <span class="block text-xl font-bold text-orange-400">100% Own</span>
+              <span class="text-xs text-slate-300">Material & Labour</span>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10">
+              <span class="block text-xl font-bold text-orange-400">Turnkey</span>
+              <span class="text-xs text-slate-300">Slab & Structure Work</span>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10 col-span-2 sm:col-span-1">
+              <span class="block text-xl font-bold text-orange-400">GST Registered</span>
+              <span class="text-xs text-slate-300">Official Billing</span>
+            </div>
+          </div>
+
+          <!-- CTAs -->
+          <div class="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20have%20an%20inquiry%20for%20Shuttering%20/%20Construction%20work.%20Location%20and%20details:" 
+               target="_blank"
+               class="bg-brand-orange hover:bg-brand-orangeHover text-white font-bold px-6 py-3.5 rounded-lg text-center shadow-lg hover:shadow-orange-500/20 transition flex items-center justify-center gap-2">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.12-.524-1.821-.745-2.986-2.607-3.076-2.727-.09-.12-1.02-1.357-1.02-2.587 0-1.23.64-1.838.868-2.088.196-.215.426-.269.569-.269.143 0 .287.002.412.008.134.006.312-.051.488.371.18.432.614 1.498.668 1.606.054.108.09.234.018.378-.072.144-.108.234-.216.36-.108.126-.228.281-.326.377-.108.108-.22.226-.095.441.125.216.557.919 1.196 1.489.824.734 1.519.96 1.735 1.068.216.108.342.09.468-.054.126-.144.54-.63.684-.846.144-.216.288-.18.486-.108.198.072 1.26.594 1.476.702.216.108.36.162.414.252.054.09.054.522-.09 1.224zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.176L2 22l4.978-1.399C8.423 21.496 10.154 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+              <span>Get Instant WhatsApp Quote</span>
+            </a>
+            <a href="tel:9845295628" 
+               class="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-lg text-center border border-white/20 transition flex items-center justify-center gap-2">
+              <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+              <span>Call: 98452 95628</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Business Signboard & Quick Spec Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-2xl p-3 shadow-2xl border border-slate-200/20 text-slate-800">
+            <div class="relative overflow-hidden rounded-xl bg-slate-100 border border-slate-200">
+              <img src="assets/board.jpg" 
+                   alt="Mahalakshmi Enterprises Signboard" 
+                   class="w-full h-auto object-cover hover:scale-105 transition duration-500">
+              <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/90 via-slate-900/50 to-transparent p-4 text-white">
+                <span class="text-xs uppercase font-bold tracking-wider text-orange-400">Official Site Board</span>
+                <p class="text-sm font-medium text-slate-200">Kodigehalli, Magadi Road, Bengaluru</p>
+              </div>
+            </div>
+            <div class="p-4 grid grid-cols-2 gap-3 text-center text-xs">
+              <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                <span class="block text-slate-500 font-medium">Head Office</span>
+                <strong class="text-brand-blue font-bold">Magadi Road, BLR</strong>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                <span class="block text-slate-500 font-medium">Service Coverage</span>
+                <strong class="text-brand-blue font-bold">All Over Bengaluru</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK ACTION / WHATSAPP INTENT BAR -->
+  <section class="bg-brand-blue py-6 px-4 sm:px-6 border-b border-blue-900">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <h2 class="text-white font-bold text-lg">Looking for Rates or Immediate Material Availability?</h2>
+        <p class="text-blue-200 text-xs sm:text-sm">Select your requirement for direct contractor pricing on WhatsApp.</p>
+      </div>
+      <div class="flex flex-wrap gap-2 w-full md:w-auto">
+        <a href="https://wa.me/15551498441?text=Hi%20Mahalakshmi%20Enterprises,%20I%20need%20a%20quote%20for%20Turnkey%20Shuttering%20Work%20(Material%20%2B%20Labour)." 
+           target="_blank"
+           class="bg-white/10 hover:bg-white text-white hover:text-brand-blue border border-white/20 text-xs font-semibold px-3.5 py-2 rounded-lg transition">
+          Shuttering (Material + Labour)
+        </a>
+        <a href="https://wa.me/15551498441?text=Hi%20Mahalakshmi%20Enterprises,%20I%20want%20to%20rent%20Props,%20Spans,%20and%20Steel%20Plates." 
+           target="_blank"
+           class="bg-white/10 hover:bg-white text-white hover:text-brand-blue border border-white/20 text-xs font-semibold px-3.5 py-2 rounded-lg transition">
+          Rent Props & Spans
+        </a>
+        <a href="https://wa.me/15551498441?text=Hi%20Mahalakshmi%20Enterprises,%20I%20have%20a%20Commercial%20/%20Industrial%20building%20project." 
+           target="_blank"
+           class="bg-brand-orange hover:bg-brand-orangeHover text-white text-xs font-semibold px-3.5 py-2 rounded-lg transition shadow">
+          Building Contract
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-16 sm:py-20 px-4 sm:px-6 max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <span class="text-brand-orange font-bold text-xs sm:text-sm uppercase tracking-wider">What We Deliver</span>
+      <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-blue mt-1">Our Core Services</h2>
+      <p class="text-slate-600 text-sm sm:text-base mt-2">
+        We handle end-to-end structural formwork and civil construction with complete accountability, safe shuttering practices, and zero subcontractor markup.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Service 1: Shuttering Work -->
+      <div class="bg-white rounded-2xl p-7 border border-slate-200/80 shadow-sm hover:shadow-md transition">
+        <div class="w-12 h-12 rounded-xl bg-blue-50 text-brand-blue flex items-center justify-center mb-5 border border-blue-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-brand-blue mb-2.5">Shuttering & Centering Work</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          Complete formwork execution for RCC slab casting, beam alignment, column boxes, and retaining walls.
+        </p>
+        <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-100 pt-4">
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Material + Labour Turnkey Packages
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Accurate Water-Leveling & Line Plumb
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Safe & Timely De-Shuttering Protocol
+          </li>
+        </ul>
+        <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20want%20rates%20for%20Shuttering%20Centering%20Work%20in%20Bengaluru." 
+           target="_blank"
+           class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-blue hover:text-brand-orange transition">
+          Inquire Shuttering Rates &rarr;
+        </a>
+      </div>
+
+      <!-- Service 2: Material Rental -->
+      <div class="bg-white rounded-2xl p-7 border-2 border-brand-orange/40 shadow-sm hover:shadow-md transition relative">
+        <span class="absolute -top-3 right-6 bg-brand-orange text-white text-[11px] font-bold px-3 py-0.5 rounded-full tracking-wider uppercase">
+          In-Stock
+        </span>
+        <div class="w-12 h-12 rounded-xl bg-orange-50 text-brand-orange flex items-center justify-center mb-5 border border-orange-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-brand-blue mb-2.5">Material Rental (On Hire)</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          Direct stockyard supply of shuttering equipment for contractors, engineers, and builders across Bengaluru.
+        </p>
+        <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-100 pt-4">
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Adjustable Steel Props (Jack Pipes)
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Telescopic Girder Spans (Joists)
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            MS Steel Centering / Shuttering Plates
+          </li>
+        </ul>
+        <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20want%20to%20rent%20Props,%20Spans,%20and%20Steel%20Plates.%20Please%20share%20hire%20rates." 
+           target="_blank"
+           class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition">
+          Check Material Availability &rarr;
+        </a>
+      </div>
+
+      <!-- Service 3: Construction Contracts -->
+      <div class="bg-white rounded-2xl p-7 border border-slate-200/80 shadow-sm hover:shadow-md transition">
+        <div class="w-12 h-12 rounded-xl bg-blue-50 text-brand-blue flex items-center justify-center mb-5 border border-blue-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-brand-blue mb-2.5">Civil Construction Contracts</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          Complete structural and civil execution for commercial complexes, industrial factories, schools, and apartments.
+        </p>
+        <ul class="text-xs text-slate-700 space-y-2 mb-6 border-t border-slate-100 pt-4">
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Commercial & Industrial Sheds
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Educational & Institutional Buildings
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Multi-Story Residential Apartments
+          </li>
+        </ul>
+        <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20have%20a%20new%20building%20construction%20project%20in%20Bengaluru." 
+           target="_blank"
+           class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-blue hover:text-brand-orange transition">
+          Discuss Project Contract &rarr;
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MATERIAL & INVENTORY SHOWCASE -->
+  <section id="materials" class="py-16 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div>
+          <span class="text-brand-orange font-bold text-xs uppercase tracking-wider">Heavy-Duty Hardware</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-blue mt-1">Shuttering Materials Available for Hire</h2>
+        </div>
+        <p class="text-slate-500 text-xs sm:text-sm max-w-md">
+          Well-maintained, standard-gauge steel materials ready for immediate dispatch from our Magadi Road yard.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Item 1 -->
+        <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+          <div class="h-28 bg-white rounded-lg flex items-center justify-center p-3 mb-4 border border-slate-200/60">
+            <span class="text-4xl">🔩</span>
+          </div>
+          <h4 class="font-bold text-slate-800 text-base mb-1">Adjustable Steel Props</h4>
+          <p class="text-xs text-slate-500 mb-3">Telescopic jack pipes for reliable slab and beam bottom support.</p>
+          <div class="text-[11px] font-semibold text-brand-blue bg-blue-50/80 px-2.5 py-1 rounded inline-block">
+            Sizes: 2m × 2m, 2m × 3m, 3m × 3m
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+          <div class="h-28 bg-white rounded-lg flex items-center justify-center p-3 mb-4 border border-slate-200/60">
+            <span class="text-4xl">🏗️</span>
+          </div>
+          <h4 class="font-bold text-slate-800 text-base mb-1">Girder Spans (Joists)</h4>
+          <p class="text-xs text-slate-500 mb-3">High-tensile lattice spans for wide floor and beam centering.</p>
+          <div class="text-[11px] font-semibold text-brand-blue bg-blue-50/80 px-2.5 py-1 rounded inline-block">
+            Standard & Telescopic Heavy-Gauge
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+          <div class="h-28 bg-white rounded-lg flex items-center justify-center p-3 mb-4 border border-slate-200/60">
+            <span class="text-4xl">📐</span>
+          </div>
+          <h4 class="font-bold text-slate-800 text-base mb-1">MS Shuttering Plates</h4>
+          <p class="text-xs text-slate-500 mb-3">Clean, flat, oiled steel centering plates for smooth slab finish.</p>
+          <div class="text-[11px] font-semibold text-brand-blue bg-blue-50/80 px-2.5 py-1 rounded inline-block">
+            Sizes: 2' × 3', 2' × 4', Custom
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+          <div class="h-28 bg-white rounded-lg flex items-center justify-center p-3 mb-4 border border-slate-200/60">
+            <span class="text-4xl">👷‍♂️</span>
+          </div>
+          <h4 class="font-bold text-slate-800 text-base mb-1">Skilled Labour Teams</h4>
+          <p class="text-xs text-slate-500 mb-3">Experienced bar-benders, carpenters, and shuttering masons.</p>
+          <div class="text-[11px] font-semibold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded inline-block">
+            Site Gangs Available on Demand
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTORS WE SERVE -->
+  <section id="projects" class="py-16 sm:py-20 px-4 sm:px-6 max-w-7xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-brand-orange font-bold text-xs uppercase tracking-wider">Expertise & Scope</span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-blue mt-1">Sectors We Build For</h2>
+      <p class="text-slate-600 text-xs sm:text-sm mt-2">
+        From industrial hubs in Peenya & Nelamangala to apartment projects across Bangalore.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
+      <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+        <span class="text-2xl block mb-2">🏢</span>
+        <h4 class="font-bold text-slate-800 text-sm">Commercial Buildings</h4>
+        <span class="text-[11px] text-slate-500">Offices & Retail</span>
+      </div>
+      <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+        <span class="text-2xl block mb-2">🏭</span>
+        <h4 class="font-bold text-slate-800 text-sm">Industrial Buildings</h4>
+        <span class="text-[11px] text-slate-500">Factories & Sheds</span>
+      </div>
+      <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+        <span class="text-2xl block mb-2">🏫</span>
+        <h4 class="font-bold text-slate-800 text-sm">Educational</h4>
+        <span class="text-[11px] text-slate-500">Schools & Colleges</span>
+      </div>
+      <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm">
+        <span class="text-2xl block mb-2">🏙️</span>
+        <h4 class="font-bold text-slate-800 text-sm">High Rise Buildings</h4>
+        <span class="text-[11px] text-slate-500">Tower Structures</span>
+      </div>
+      <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm col-span-2 lg:col-span-1">
+        <span class="text-2xl block mb-2">🏘️</span>
+        <h4 class="font-bold text-slate-800 text-sm">Apartments</h4>
+        <span class="text-[11px] text-slate-500">Residential Blocks</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & CREDIBILITY -->
+  <section id="about" class="py-16 bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-7 space-y-4">
+          <span class="text-brand-orange font-bold text-xs uppercase tracking-wider">Direct Contractor Advantage</span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold leading-tight">
+            Why Contractors & Builders Choose Mahalakshmi Enterprises
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            In civil construction, delays happen when materials are rented from one party and labour is sourced from another. We eliminate that friction by supplying <strong>our own shuttering inventory together with trained labour</strong>.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 text-sm text-slate-200">
+            <div class="flex items-start gap-2.5">
+              <span class="text-orange-400 font-bold">✓</span>
+              <span><strong>Zero Middleman Margins:</strong> Direct contractor pricing for builders and site engineers.</span>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-orange-400 font-bold">✓</span>
+              <span><strong>Fast Site Mobilization:</strong> Strategic Magadi Road yard allows rapid material transport.</span>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-orange-400 font-bold">✓</span>
+              <span><strong>GST Invoiced:</strong> Full compliance with tax invoices for corporate and commercial accounts.</span>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-orange-400 font-bold">✓</span>
+              <span><strong>Safety-First Standards:</strong> Regular inspection of props, pins, and load-bearing spans.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-sm">
+          <h3 class="text-lg font-bold text-white mb-4">Official Verification</h3>
+          <dl class="space-y-3 text-xs sm:text-sm">
+            <div class="flex justify-between py-2 border-b border-white/10">
+              <dt class="text-slate-400">Enterprise Name:</dt>
+              <dd class="font-semibold text-white">Mahalakshmi Enterprises</dd>
+            </div>
+            <div class="flex justify-between py-2 border-b border-white/10">
+              <dt class="text-slate-400">GST Registration:</dt>
+              <dd class="font-mono font-bold text-emerald-400">29AFVPV5496D1ZF</dd>
+            </div>
+            <div class="flex justify-between py-2 border-b border-white/10">
+              <dt class="text-slate-400">Operating Region:</dt>
+              <dd class="font-medium text-white">Bengaluru & Surrounds</dd>
+            </div>
+            <div class="flex justify-between py-2">
+              <dt class="text-slate-400">Direct Contacts:</dt>
+              <dd class="font-medium text-white">9845295628 / 9071696924</dd>
+            </div>
+          </dl>
+          <div class="mt-6">
+            <a href="tel:9845295628" 
+               class="block w-full text-center bg-brand-orange hover:bg-brand-orangeHover text-white font-bold py-3 rounded-lg text-xs sm:text-sm transition">
+              Speak Directly with Contractor
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & CONTACT -->
+  <section id="contact" class="py-16 sm:py-20 px-4 sm:px-6 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      
+      <div class="lg:col-span-6 space-y-5">
+        <span class="text-brand-orange font-bold text-xs uppercase tracking-wider">Contact & Yard Location</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-blue">Get in Touch with Our Team</h2>
+        <p class="text-slate-600 text-sm">
+          Call or WhatsApp us with your site drawings, slab area, or material requirements for a prompt estimate.
+        </p>
+
+        <div class="space-y-4 pt-2 text-sm text-slate-700">
+          <div class="flex items-start gap-3 p-3.5 bg-white rounded-xl border border-slate-200">
+            <div class="w-8 h-8 rounded-lg bg-blue-50 text-brand-blue flex items-center justify-center shrink-0">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <strong class="block text-slate-900 font-bold mb-0.5">Office & Yard Address:</strong>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                #6, 1st Main, 1st Cross, Kodigehalli, Jnana Shakthi Nagar, Magadi Road, Bengaluru - 560 091, Karnataka
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3 p-3.5 bg-white rounded-xl border border-slate-200">
+            <div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <strong class="block text-slate-900 font-bold mb-0.5">Phone Numbers:</strong>
+              <p class="text-xs text-slate-600">
+                <a href="tel:9845295628" class="font-bold text-brand-blue hover:underline">+91 98452 95628</a> / 
+                <a href="tel:9071696924" class="font-bold text-brand-blue hover:underline">90716 96924</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3 p-3.5 bg-white rounded-xl border border-slate-200">
+            <div class="w-8 h-8 rounded-lg bg-orange-50 text-brand-orange flex items-center justify-center shrink-0">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <strong class="block text-slate-900 font-bold mb-0.5">Email Address:</strong>
+              <p class="text-xs text-slate-600 font-mono">
+                constr.mahalakshmienterprises@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Inquiry Form (Redirects to WhatsApp) -->
+      <div class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <h3 class="text-xl font-bold text-brand-blue mb-1">Request Instant Quote</h3>
+        <p class="text-slate-500 text-xs mb-5">Fill in your basic project info to message our contractor directly.</p>
+
+        <form id="inquiryForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Your Name / Company *</label>
+            <input type="text" id="clientName" required placeholder="e.g. Ramesh Kumar / ABC Builders" 
+                   class="w-full px-3.5 py-2.5 text-sm rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-blue focus:outline-none">
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-1">Service Needed *</label>
+              <select id="serviceType" class="w-full px-3.5 py-2.5 text-sm rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-blue focus:outline-none">
+                <option value="Shuttering (Material + Labour)">Shuttering (Material + Labour)</option>
+                <option value="Material Rental (Props/Spans/Plates)">Material Rental (Props / Spans / Plates)</option>
+                <option value="Full Building Construction">Full Building Construction</option>
+                <option value="Labour Only Contract">Labour Only Contract</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-1">Site Location in Bengaluru *</label>
+              <input type="text" id="siteLocation" required placeholder="e.g. Peenya / Magadi Rd / Whitefield" 
+                     class="w-full px-3.5 py-2.5 text-sm rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-blue focus:outline-none">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Approx Built-up Area / Quantity</label>
+            <input type="text" id="areaSize" placeholder="e.g. 5,000 Sq. Ft. slab / 200 Props" 
+                   class="w-full px-3.5 py-2.5 text-sm rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-blue focus:outline-none">
+          </div>
+
+          <button type="submit" 
+                  class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-lg text-sm transition flex items-center justify-center gap-2 shadow">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.12-.524-1.821-.745-2.986-2.607-3.076-2.727-.09-.12-1.02-1.357-1.02-2.587 0-1.23.64-1.838.868-2.088.196-.215.426-.269.569-.269.143 0 .287.002.412.008.134.006.312-.051.488.371.18.432.614 1.498.668 1.606.054.108.09.234.018.378-.072.144-.108.234-.216.36-.108.126-.228.281-.326.377-.108.108-.22.226-.095.441.125.216.557.919 1.196 1.489.824.734 1.519.96 1.735 1.068.216.108.342.09.468-.054.126-.144.54-.63.684-.846.144-.216.288-.18.486-.108.198.072 1.26.594 1.476.702.216.108.36.162.414.252.054.09.054.522-.09 1.224zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.176L2 22l4.978-1.399C8.423 21.496 10.154 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            <span>Send Details via WhatsApp</span>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-darkBlue text-slate-400 py-10 border-t border-blue-900 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <span class="kannada-text text-white font-bold text-base block">ಮಹಾಲಕ್ಷ್ಮಿ ಎಂಟರ್ಪ್ರೈಸಸ್</span>
+        <span class="text-white font-extrabold uppercase text-sm block tracking-wider">MAHALAKSHMI ENTERPRISES</span>
+        <p class="text-slate-400 mt-1">Shuttering Work & Civil Construction Contractors • Bengaluru, Karnataka</p>
+      </div>
+      <div class="text-center md:text-right">
+        <p class="text-slate-300 font-mono">GSTIN: 29AFVPV5496D1ZF</p>
+        <p class="text-slate-500 mt-1">&copy; 2026 Mahalakshmi Enterprises. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON (Always visible at bottom-right) -->
+  <div class="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+    <!-- Callout Tooltip -->
+    <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20have%20an%20inquiry%20regarding%20Shuttering%20/%20Construction." 
+       target="_blank"
+       class="hidden sm:inline-flex items-center gap-2 bg-white text-slate-800 text-xs font-semibold px-3 py-2 rounded-xl shadow-xl border border-slate-200 hover:border-emerald-500 transition">
+      <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+      Need Shuttering or Material? Chat Now
+    </a>
+
+    <!-- Big Green WhatsApp FAB -->
+    <a href="https://wa.me/15551498441?text=Hello%20Mahalakshmi%20Enterprises,%20I%20have%20an%20inquiry%20regarding%20Shuttering%20/%20Construction." 
+       target="_blank"
+       aria-label="Chat on WhatsApp"
+       class="w-14 h-14 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-105 transition-transform duration-200">
+      <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.12-.524-1.821-.745-2.986-2.607-3.076-2.727-.09-.12-1.02-1.357-1.02-2.587 0-1.23.64-1.838.868-2.088.196-.215.426-.269.569-.269.143 0 .287.002.412.008.134.006.312-.051.488.371.18.432.614 1.498.668 1.606.054.108.09.234.018.378-.072.144-.108.234-.216.36-.108.126-.228.281-.326.377-.108.108-.22.226-.095.441.125.216.557.919 1.196 1.489.824.734 1.519.96 1.735 1.068.216.108.342.09.468-.054.126-.144.54-.63.684-.846.144-.216.288-.18.486-.108.198.072 1.26.594 1.476.702.216.108.36.162.414.252.054.09.054.522-.09 1.224zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.176L2 22l4.978-1.399C8.423 21.496 10.154 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+    </a>
+  </div>
+
+  <!-- Form Submission Handler Script -->
+  <script>
+    async function handleFormSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('clientName').value.trim();
+      const service = document.getElementById('serviceType').value;
+      const location = document.getElementById('siteLocation').value.trim();
+      const area = document.getElementById('areaSize').value.trim();
+
+      // Trigger n8n webhook in background (sends automated WhatsApp confirmation)
+      try {
+        fetch('http://localhost:5678/webhook-test/mahalakshmi-lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: name,
+            service: service,
+            location: location,
+            area: area,
+            timestamp: new Date().toISOString()
+          })
+        }).catch(() => {});
+      } catch (e) {}
+
+      // Open WhatsApp for the visitor
+      const phone = "15551498441";
+      let message = `*New Project Inquiry for Mahalakshmi Enterprises*\n\n`;
+      message += `👤 *Name:* ${name}\n`;
+      message += `🏗️ *Service:* ${service}\n`;
+      message += `📍 *Site Location:* ${location}\n`;
+      if (area) {
+        message += `📐 *Area/Quantity:* ${area}\n`;
+      }
+      message += `\nPlease let me know rates and availability.`;
+
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
+
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+
+</body>
+</html>
+
